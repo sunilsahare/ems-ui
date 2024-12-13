@@ -1,11 +1,9 @@
 <script setup>
-import Header from "./components/Header.vue";
-import Main from "./components/Main.vue";
+import "./style.css"
 </script>
 
 <template>
-      <Header/>
-      <Main />
+  <router-view />
 </template>
 
 <style scoped>

@@ -139,3 +139,27 @@ button:focus-visible {
   margin-bottom: 16px;
   text-transform: uppercase;
 }
+
+#app {
+  padding: 0;
+}
+
+li {
+  list-style: none !important;
+  text-align: left !important;
+}
+
+.rounded-circle {
+  width: 34px !important;
+  height: 33px !important;
+  color: blue !important;
+  font-weight: bold !important;
+  padding: 4px !important;
+}
+
+.app-heading {
+  font-weight: bold;
+  text-transform: inherit;
+  font-family: sans-serif;
+  color: #2f4b91 !important;
+}
